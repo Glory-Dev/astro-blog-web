@@ -1,0 +1,27 @@
+---
+import Social from "./Social.astro";
+---
+
+<footer>
+  <ul>
+    <li><Social platform="github" username="iglory" /></li>
+    <li><Social platform="linkedin" username="iglory" /></li>
+    <li><Social platform="youtube" username="iglory" /></li>
+  </ul>
+  
+  <p>Copyright &copy; 2024, All rights reserved.</p>
+</footer>
+
+<style>
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+</style>
